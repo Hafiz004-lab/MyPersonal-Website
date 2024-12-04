@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family - My Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ccccFF; 
+        }
+        header {
+            background: rgba(0, 0, 0, 0.8); 
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+            color: black; 
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.8); 
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .family-image {
+            max-width: 30%; 
+            height: 300px; 
+            margin: 10px; 
+        }
+        .family-images-container {
+            display: flex; 
+            justify-content: center; 
+            flex-wrap: wrap; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Family</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="biodata.html">Biodata</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="family.html">Family</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>About My Family</h2>
+        <p>I come from a loving family that has always supported me in my endeavors. Here are some of the important people in my life:)</p>
+        
+        <h3>Family Members</h3>
+        <ul>
+            <li><strong>Father:</strong> Othman Bin Abdul Aziz</li>
+            <li><strong>Mother:</strong> Norhasimah Binti Saari</li>
+            <li><strong>Siblings:</strong> Nurul Hasanah, Ruqayyah, Muhd Hazman Faiz and Hafizuddin</li>
+        </ul>
+
+        <h3>Family Photos</h3>
+        <div class="family-images-container">
+            <img src="gambar14.jpg" alt="Family Photo 1" class="family-image"> 
+            <img src="gambar15.jpg" alt="Family Photo 2" class="family-image"> 
+            <img src="gambar16.jpg" alt="Family Photo 3" class="family-image"> 
+        </div>
+        
+        <h3>Music</h3>
+        <audio controls>
+            <source src="piano-music.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </main>
+    <footer>
+        <p>&copy; 2024 HAFIZUDDIN</p>
+    </footer>
+</body>
+</html>
